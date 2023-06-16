@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Aelis Vayra</title>
+  <base href="../">
+  <meta id="root-path" root-path="../">
+
+  <link rel="icon" sizes="96x96" href="https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/favicon-96x96.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+  <meta charset="UTF-8">
+  <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+
+  <link rel="stylesheet" href="lib/styles/obsidian-styles.css">
+  <link rel="stylesheet" href="lib/styles/theme.css">
+  <link rel="stylesheet" href="lib/styles/plugin-styles.css">
+  <link rel="stylesheet" href="lib/styles/snippets.css">
+  <style> </style>
+
+
+  <!-- Graph View Data -->
+  <script>
+    let nodes = {
+      "nodeCount": 145,
+      "linkCount": 273,
+      "radii": [7, 5.734375, 5.734375, 5.734375, 5.58984375, 5.58984375, 5.4375, 5.4375, 5.27734375, 5.109375, 5.109375, 5.109375, 4.93359375, 4.93359375, 4.93359375, 4.75, 4.75, 4.75, 4.75, 4.75, 4.75, 4.75, 4.75, 4.75, 4.55859375, 4.55859375, 4.55859375, 4.55859375, 4.359375, 4.359375, 4.359375, 4.359375, 4.359375, 4.359375, 4.359375, 4.359375, 4.359375, 4.359375, 4.15234375, 4.15234375, 4.15234375, 4.15234375, 4.15234375, 4.15234375, 4.15234375, 3.9375, 3.9375, 3.9375, 3.9375, 3.9375, 3.9375, 3.9375, 3.9375, 3.9375, 3.9375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.71484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.484375, 3.24609375, 3.24609375, 3.24609375, 3.24609375, 3.24609375, 3.24609375, 3.24609375, 3.24609375, 3.24609375, 3.24609375, 3.24609375, 3.24609375, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+      "labels": ["Sturmklaue", "Sekunda", "Fellonhall", "Selvarun", "Freihafen", "Am'jarr", "Wall", "Mondfall", "Emporio Selvarun", "unoffizielle Duergar Mine", "Pentagard", "Sklavenlord Bixbo", "Uthrend", "5 Gründungshäuser von Fellonhall", "Teclis Fellonhall", "Kleine Inseln (name wip)", "Notes 2 - 12.01.2022", "Mondblut", "Vandock", "unheimlichen Leonin", "Professor Cedis", "Helmut der Greis", "Ellaria Fellonhall", "Balok T'sar", "Rinaria Selvarun", "Jon Hannes", "Arcy", "Ajay Mollekorn", "Uthrend (Kontinent)", "Schamharal", "Silbervögel", "Victor Kalvar", "Valastra", "Kurjuw", "Joyboy Jack", "Georg Spießrich", "Gemini", "Desmond Kroll", "Valastras Zuflucht", "Primus", "Wallwächter", "Notes 27 - 22.12.2022", "Sultan Kazzim", "Luzara", "Ferdinant Knurr", "To-do", "Selvarun Lore", "Forglung", "Mondschätze", "Mondherz", "Olaf der Söldner", "Kokonteppi Tosselong", "Deep Wanderer", "Clint", "Ashmir", "Verschwinden von Umberlee", "Solheim", "Ajhum", "Militär von Freihafen", "Arahel", "Notes 0 - 22.12.2021", "Flugschiffe", "Vashraz der Invalide", "SoP Besitzer", "Pete", "Nitzza Zweinacht", "Miranda", "John Nelson", "Fayrith Fellonhall", "Erendiel Selvarun", "CK", "Bäckerei Amacrith", "Amanda", "Wunschliste", "Selvarun Vermächtnis", "Universität von Ostamark", "Oceanblood Castle", "Vayra", "Ulakian", "Kinder des Sturms", "Das Fahrende Folk", "Augen von Baelstrom", "Mondträne", "Helmuts Staff of Power", "Unknown Selvarun", "Su Annam", "Luthrosa", "Lutenant Briggo", "Lord Baelstrom", "Jeff Bullman", "Grambambuli", "Cyran Selvarun", "Commodore Stahlkralle", "Alte Hilde", "Aelis Vayra", "Wahlkampf Freihafen", "Fellonhall (Haus)", "Die 7", "Notes 9 - 06.03.2022", "Notes 40 - 24.05.2023", "Notes 25 - 01.12.2022", "Susie", "Shining Mariah", "Jonny J. D. Goblin", "Jimmy J. D. Goblin", "Captain Jones", "Billy", "Update github wiki", "Selvarun Stammbaum", "Notes 8 - 27.02.2022", "Notes 7 - 16.02.2022", "Notes 6 - 09.02.2022", "Notes 5 - 02.02.2022", "Notes 41 - 14.06.2023", "Notes 4 - 26.01.2022", "Notes 39 - 12.04.2023", "Notes 38 - 05.04.2023", "Notes 37 - 02.04-2023", "Notes 36 - 26.03.2023", "Notes 35 - 02.03.2023", "Notes 34 - 23.02.2023", "Notes 33 - 16.02.2023", "Notes 32 - 09.02.2023", "Notes 31 - 02.02.2023", "Notes 30 - 26.01.2023", "Notes 29 - 19.01.2023", "Notes 28 - 29.12.2022", "Notes 26 - 15.12.2022", "Notes 24 - 17.11.2022", "Notes 23 - 10.11.2022", "Notes 22 - 27.10.2022", "Notes 21 - 20.102022", "Notes 20 - 15.09.2022", "Notes 19 - 08.09.2022", "Notes 18 - 24.07.2022", "Notes 17 - 17.07.2022", "Notes 16 - 10.07.2022", "Notes 15 - 22.05.2022", "Notes 14 - 01.05.2022", "Notes 13 - 24.04.2022", "Notes 12 - 10.04.2022", "Notes 11 - 27.03.2022", "Notes 10 - 20.03.2022", "Notes 1 - 30.12.2021", "Drachenkrieg"],
+      "paths": ["organisationen/sturmklaue.html", "orte/sekunda.html", "orte/fellonhall.html", "organisationen/selvarun.html", "orte/freihafen.html", "orte/am'jarr.html", "orte/wall.html", "ereignisse/mondfall.html", "charaktere/emporio-selvarun.html", "orte/unoffizielle-duergar-mine.html", "orte/pentagard.html", "charaktere/sklavenlord-bixbo.html", "orte/uthrend.html", "organisationen/5-gründungshäuser-von-fellonhall.html", "charaktere/teclis-fellonhall.html", "orte/kleine-inseln-(name-wip).html", "notes/notes-2-12.01.2022.html", "items/mondblut.html", "charaktere/vandock.html", "charaktere/unheimlichen-leonin.html", "charaktere/professor-cedis.html", "charaktere/helmut-der-greis.html", "charaktere/ellaria-fellonhall.html", "charaktere/balok-t'sar.html", "charaktere/rinaria-selvarun.html", "charaktere/jon-hannes.html", "charaktere/arcy.html", "charaktere/ajay-mollekorn.html", "orte/uthrend-(kontinent).html", "orte/schamharal.html", "organisationen/silbervögel.html", "charaktere/victor-kalvar.html", "charaktere/valastra.html", "charaktere/kurjuw.html", "charaktere/joyboy-jack.html", "charaktere/georg-spießrich.html", "charaktere/gemini.html", "charaktere/desmond-kroll.html", "orte/valastras-zuflucht.html", "orte/primus.html", "organisationen/wallwächter.html", "notes/notes-27-22.12.2022.html", "charaktere/sultan-kazzim.html", "charaktere/luzara.html", "charaktere/ferdinant-knurr.html", "to-do.html", "selvarun-lore.html", "orte/forglung.html", "items/mondschätze.html", "items/mondherz.html", "charaktere/olaf-der-söldner.html", "charaktere/kokonteppi-tosselong.html", "charaktere/deep-wanderer.html", "charaktere/clint.html", "charaktere/ashmir.html", "verschwinden-von-umberlee.html", "orte/solheim.html", "orte/ajhum.html", "organisationen/militär-von-freihafen.html", "organisationen/arahel.html", "notes/notes-0-22.12.2021.html", "items/flugschiffe.html", "charaktere/vashraz-der-invalide.html", "charaktere/sop-besitzer.html", "charaktere/pete.html", "charaktere/nitzza-zweinacht.html", "charaktere/miranda.html", "charaktere/john-nelson.html", "charaktere/fayrith-fellonhall.html", "charaktere/erendiel-selvarun.html", "charaktere/ck.html", "charaktere/bäckerei-amacrith.html", "charaktere/amanda.html", "wunschliste.html", "selvarun-vermächtnis.html", "orte/universität-von-ostamark.html", "orte/oceanblood-castle.html", "organisationen/vayra.html", "organisationen/ulakian.html", "organisationen/kinder-des-sturms.html", "organisationen/das-fahrende-folk.html", "organisationen/augen-von-baelstrom.html", "items/mondträne.html", "items/helmuts-staff-of-power.html", "charaktere/unknown-selvarun.html", "charaktere/su-annam.html", "charaktere/luthrosa.html", "charaktere/lutenant-briggo.html", "charaktere/lord-baelstrom.html", "charaktere/jeff-bullman.html", "charaktere/grambambuli.html", "charaktere/cyran-selvarun.html", "charaktere/commodore-stahlkralle.html", "charaktere/alte-hilde.html", "charaktere/aelis-vayra.html", "wahlkampf-freihafen.html", "organisationen/fellonhall-(haus).html", "organisationen/die-7.html", "notes/notes-9-06.03.2022.html", "notes/notes-40-24.05.2023.html", "notes/notes-25-01.12.2022.html", "charaktere/susie.html", "charaktere/shining-mariah.html", "charaktere/jonny-j-d.-goblin.html", "charaktere/jimmy-j-d.-goblin.html", "charaktere/captain-jones.html", "charaktere/billy.html", "update-github-wiki.html", "selvarun-stammbaum.html", "notes/notes-8-27.02.2022.html", "notes/notes-7-16.02.2022.html", "notes/notes-6-09.02.2022.html", "notes/notes-5-02.02.2022.html", "notes/notes-41-14.06.2023.html", "notes/notes-4-26.01.2022.html", "notes/notes-39-12.04.2023.html", "notes/notes-38-05.04.2023.html", "notes/notes-37-02.04-2023.html", "notes/notes-36-26.03.2023.html", "notes/notes-35-02.03.2023.html", "notes/notes-34-23.02.2023.html", "notes/notes-33-16.02.2023.html", "notes/notes-32-09.02.2023.html", "notes/notes-31-02.02.2023.html", "notes/notes-30-26.01.2023.html", "notes/notes-29-19.01.2023.html", "notes/notes-28-29.12.2022.html", "notes/notes-26-15.12.2022.html", "notes/notes-24-17.11.2022.html", "notes/notes-23-10.11.2022.html", "notes/notes-22-27.10.2022.html", "notes/notes-21-20.102022.html", "notes/notes-20-15.09.2022.html", "notes/notes-19-08.09.2022.html", "notes/notes-18-24.07.2022.html", "notes/notes-17-17.07.2022.html", "notes/notes-16-10.07.2022.html", "notes/notes-15-22.05.2022.html", "notes/notes-14-01.05.2022.html", "notes/notes-13-24.04.2022.html", "notes/notes-12-10.04.2022.html", "notes/notes-11-27.03.2022.html", "notes/notes-10-20.03.2022.html", "notes/notes-1-30.12.2021.html", "ereignisse/drachenkrieg.html"],
+      "linkSources": [94, 27, 93, 72, 72, 72, 26, 26, 54, 54, 54, 54, 23, 23, 71, 71, 70, 70, 53, 53, 53, 92, 92, 91, 52, 37, 37, 37, 37, 37, 22, 22, 22, 22, 22, 22, 8, 8, 69, 69, 68, 68, 44, 44, 36, 36, 36, 35, 35, 35, 35, 35, 90, 21, 21, 21, 21, 21, 21, 89, 104, 67, 25, 25, 25, 103, 34, 51, 51, 51, 33, 33, 88, 87, 87, 86, 43, 43, 43, 66, 66, 65, 65, 50, 50, 50, 64, 20, 20, 20, 20, 20, 20, 20, 24, 24, 102, 11, 11, 11, 11, 63, 63, 85, 85, 42, 42, 14, 14, 14, 14, 14, 84, 32, 32, 32, 32, 18, 18, 62, 62, 31, 19, 19, 19, 7, 7, 7, 7, 7, 7, 7, 61, 61, 83, 17, 17, 17, 17, 49, 49, 48, 48, 48, 48, 82, 60, 60, 60, 16, 16, 16, 16, 16, 16, 16, 16, 100, 41, 41, 41, 41, 41, 99, 98, 13, 13, 13, 13, 13, 59, 81, 80, 97, 96, 79, 3, 3, 3, 3, 3, 3, 3, 3, 30, 30, 30, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 78, 77, 40, 40, 40, 57, 57, 5, 5, 2, 2, 47, 47, 4, 15, 15, 15, 15, 15, 76, 10, 10, 39, 39, 39, 29, 29, 1, 1, 1, 1, 1, 28, 28, 12, 12, 38, 38, 38, 6, 6, 6, 6, 6, 6, 6, 9, 9, 9, 9, 9, 9, 9, 46, 46, 46, 46, 74, 45, 45, 45, 45, 55, 55, 73],
+      "linkTargets": [59, 5, 35, 89, 5, 23, 0, 34, 5, 33, 31, 26, 4, 0, 2, 8, 32, 80, 4, 38, 31, 58, 4, 8, 55, 34, 26, 11, 0, 5, 14, 43, 11, 26, 0, 5, 2, 3, 3, 24, 2, 14, 11, 0, 75, 8, 0, 58, 4, 27, 93, 76, 4, 56, 63, 0, 27, 8, 83, 5, 64, 0, 19, 9, 0, 64, 18, 2, 24, 17, 0, 18, 4, 58, 4, 40, 14, 22, 11, 0, 23, 12, 24, 30, 23, 0, 4, 75, 79, 36, 8, 30, 56, 0, 3, 8, 34, 29, 42, 26, 37, 21, 0, 5, 11, 5, 33, 68, 2, 22, 43, 11, 24, 38, 53, 70, 81, 0, 105, 67, 0, 0, 9, 17, 0, 1, 12, 28, 47, 6, 10, 15, 10, 49, 0, 1, 9, 19, 5, 1, 61, 1, 17, 82, 49, 1, 12, 4, 2, 25, 0, 33, 18, 52, 27, 23, 5, 44, 25, 27, 44, 23, 31, 95, 14, 2, 78, 59, 77, 3, 13, 88, 4, 34, 2, 52, 2, 13, 6, 69, 84, 24, 91, 8, 20, 8, 36, 56, 23, 8, 67, 94, 106, 25, 44, 66, 50, 62, 101, 36, 27, 18, 33, 26, 31, 86, 90, 21, 13, 13, 6, 10, 2, 29, 10, 29, 42, 7, 29, 7, 6, 28, 28, 10, 1, 18, 19, 4, 7, 1, 12, 7, 1, 57, 2, 39, 12, 7, 10, 15, 12, 6, 39, 1, 4, 32, 31, 28, 47, 12, 10, 2, 3, 40, 18, 15, 10, 17, 19, 0, 25, 3, 51, 71, 65, 74, 19, 5, 42, 34, 52, 27, 73]
+    };
+    let attractionForce = 1;
+    let linkLength = 10;
+    let repulsionForce = 150;
+    let centralForce = 3;
+    let edgePruning = 100;
+  </script>
+
+  <script type="module" src="lib/scripts/graph_view.js"></script>
+
+  <script src="lib/scripts/graph_wasm.js"></script>
+
+  <script src="lib/scripts/tinycolor.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.2.4/pixi.min.js" integrity="sha512-Ch/O6kL8BqUwAfCF7Ie5SX1Hin+BJgYH4pNjRqXdTEqMsis1TUYg+j6nnI9uduPjGaj7DN4UKCZgpvoExt6dkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="lib/scripts/webpage.js"></script>
+
+</head>
+
+<body class="theme-dark mod-windows is-frameless is-hidden-frameless obsidian-app show-inline-title show-view-header" style="--zoom-factor:1; --font-text-size:16px; --line-width:50em; --line-width-adaptive:50em; --file-line-width:50em; --content-width:500em; --sidebar-width:25em; --collapse-arrow-size:0.4em; --tree-horizontal-spacing:1em; --tree-vertical-spacing:0.5em; --sidebar-margin:12px;">
+  <div class="webpage-container">
+    <div class="sidebar-left sidebar">
+      <div class="sidebar-content">
+        <div><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle">
+            <div class="toggle-background"></div>
+          </label></div>
+        <div class="tree-container file-tree mod-nav-indicator" data-depth="0">
+          <div class="tree-header"><span class="sidebar-section-header">Die Legende der Sturmklaue</span><button class="clickable-icon collapse-tree-button is-collapsed"><iconify-icon icon="ph:arrows-in-line-horizontal-bold" width="18px" height="18px" rotate="90deg" color="currentColor"></iconify-icon></button></div>
+          <div class="tree-scroll-area">
+            <div class="tree-item mod-tree-folder mod-collapsible is-collapsed" data-depth="1">
+              <div class="tree-item-contents">
+                <div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
+                    <path d="M3 8L12 17L21 8"></path>
+                  </svg></div><a class="tree-item-link" href="charaktere"><span class="tree-item-title">Charaktere</span></a>
+              </div>
+              <div class="tree-item-children">
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/aelis-vayra.html"><span class="tree-item-title">Aelis Vayra</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/ajay-mollekorn.html"><span class="tree-item-title">Ajay Mollekorn</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/alte-hilde.html"><span class="tree-item-title">Alte Hilde</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/amanda.html"><span class="tree-item-title">Amanda</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/arcy.html"><span class="tree-item-title">Arcy</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/ashmir.html"><span class="tree-item-title">Ashmir</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/bäckerei-amacrith.html"><span class="tree-item-title">Bäckerei Amacrith</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/balok-t'sar.html"><span class="tree-item-title">Balok T'sar</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/billy.html"><span class="tree-item-title">Billy</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/captain-jones.html"><span class="tree-item-title">Captain Jones</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/ck.html"><span class="tree-item-title">CK</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/clint.html"><span class="tree-item-title">Clint</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/commodore-stahlkralle.html"><span class="tree-item-title">Commodore Stahlkralle</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/cyran-selvarun.html"><span class="tree-item-title">Cyran Selvarun</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/deep-wanderer.html"><span class="tree-item-title">Deep Wanderer</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/desmond-kroll.html"><span class="tree-item-title">Desmond Kroll</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/ellaria-fellonhall.html"><span class="tree-item-title">Ellaria Fellonhall</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/emporio-selvarun.html"><span class="tree-item-title">Emporio Selvarun</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/erendiel-selvarun.html"><span class="tree-item-title">Erendiel Selvarun</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/fayrith-fellonhall.html"><span class="tree-item-title">Fayrith Fellonhall</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/ferdinant-knurr.html"><span class="tree-item-title">Ferdinant Knurr</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/gemini.html"><span class="tree-item-title">Gemini</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/georg-spießrich.html"><span class="tree-item-title">Georg Spießrich</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/grambambuli.html"><span class="tree-item-title">Grambambuli</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/helmut-der-greis.html"><span class="tree-item-title">Helmut der Greis</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/jeff-bullman.html"><span class="tree-item-title">Jeff Bullman</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/jimmy-j-d-goblin.html"><span class="tree-item-title">Jimmy J. D. Goblin</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/john-nelson.html"><span class="tree-item-title">John Nelson</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/jon-hannes.html"><span class="tree-item-title">Jon Hannes</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/jonny-j-d-goblin.html"><span class="tree-item-title">Jonny J. D. Goblin</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/joyboy-jack.html"><span class="tree-item-title">Joyboy Jack</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/kokonteppi-tosselong.html"><span class="tree-item-title">Kokonteppi Tosselong</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/kurjuw.html"><span class="tree-item-title">Kurjuw</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/lord-baelstrom.html"><span class="tree-item-title">Lord Baelstrom</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/lutenant-briggo.html"><span class="tree-item-title">Lutenant Briggo</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/luthrosa.html"><span class="tree-item-title">Luthrosa</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/luzara.html"><span class="tree-item-title">Luzara</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/miranda.html"><span class="tree-item-title">Miranda</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/nitzza-zweinacht.html"><span class="tree-item-title">Nitzza Zweinacht</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/olaf-der-söldner.html"><span class="tree-item-title">Olaf der Söldner</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/pete.html"><span class="tree-item-title">Pete</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/professor-cedis.html"><span class="tree-item-title">Professor Cedis</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/rinaria-selvarun.html"><span class="tree-item-title">Rinaria Selvarun</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/shining-mariah.html"><span class="tree-item-title">Shining Mariah</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/sklavenlord-bixbo.html"><span class="tree-item-title">Sklavenlord Bixbo</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/sop-besitzer.html"><span class="tree-item-title">SoP Besitzer</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/su-annam.html"><span class="tree-item-title">Su Annam</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/sultan-kazzim.html"><span class="tree-item-title">Sultan Kazzim</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/susie.html"><span class="tree-item-title">Susie</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/teclis-fellonhall.html"><span class="tree-item-title">Teclis Fellonhall</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/unheimlichen-leonin.html"><span class="tree-item-title">unheimlichen Leonin</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/unknown-selvarun.html"><span class="tree-item-title">Unknown Selvarun</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/valastra.html"><span class="tree-item-title">Valastra</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/vandock.html"><span class="tree-item-title">Vandock</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/vashraz-der-invalide.html"><span class="tree-item-title">Vashraz der Invalide</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="charaktere/victor-kalvar.html"><span class="tree-item-title">Victor Kalvar</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+              </div>
+            </div>
+            <div class="tree-item mod-tree-folder mod-collapsible is-collapsed" data-depth="1">
+              <div class="tree-item-contents">
+                <div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
+                    <path d="M3 8L12 17L21 8"></path>
+                  </svg></div><a class="tree-item-link" href="ereignisse"><span class="tree-item-title">Ereignisse</span></a>
+              </div>
+              <div class="tree-item-children">
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="ereignisse/drachenkrieg.html"><span class="tree-item-title">Drachenkrieg</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="ereignisse/mondfall.html"><span class="tree-item-title">Mondfall</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+              </div>
+            </div>
+            <div class="tree-item mod-tree-folder mod-collapsible is-collapsed" data-depth="1">
+              <div class="tree-item-contents">
+                <div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
+                    <path d="M3 8L12 17L21 8"></path>
+                  </svg></div><a class="tree-item-link" href="items"><span class="tree-item-title">Items</span></a>
+              </div>
+              <div class="tree-item-children">
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="items/flugschiffe.html"><span class="tree-item-title">Flugschiffe</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="items/helmuts-staff-of-power.html"><span class="tree-item-title">Helmuts Staff of Power</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="items/mondblut.html"><span class="tree-item-title">Mondblut</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="items/mondherz.html"><span class="tree-item-title">Mondherz</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="items/mondschätze.html"><span class="tree-item-title">Mondschätze</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="items/mondträne.html"><span class="tree-item-title">Mondträne</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+              </div>
+            </div>
+            <div class="tree-item mod-tree-folder mod-collapsible is-collapsed" data-depth="1">
+              <div class="tree-item-contents">
+                <div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
+                    <path d="M3 8L12 17L21 8"></path>
+                  </svg></div><a class="tree-item-link" href="notes"><span class="tree-item-title">Notes</span></a>
+              </div>
+              <div class="tree-item-children">
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-0-22.12.2021.html"><span class="tree-item-title">Notes 0 - 22.12.2021</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-1-30.12.2021.html"><span class="tree-item-title">Notes 1 - 30.12.2021</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-10-20.03.2022.html"><span class="tree-item-title">Notes 10 - 20.03.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-11-27.03.2022.html"><span class="tree-item-title">Notes 11 - 27.03.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-12-10.04.2022.html"><span class="tree-item-title">Notes 12 - 10.04.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-13-24.04.2022.html"><span class="tree-item-title">Notes 13 - 24.04.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-14-01.05.2022.html"><span class="tree-item-title">Notes 14 - 01.05.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-15-22.05.2022.html"><span class="tree-item-title">Notes 15 - 22.05.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-16-10.07.2022.html"><span class="tree-item-title">Notes 16 - 10.07.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-17-17.07.2022.html"><span class="tree-item-title">Notes 17 - 17.07.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-18-24.07.2022.html"><span class="tree-item-title">Notes 18 - 24.07.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-19-08.09.2022.html"><span class="tree-item-title">Notes 19 - 08.09.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-2-12.01.2022.html"><span class="tree-item-title">Notes 2 - 12.01.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-20-15.09.2022.html"><span class="tree-item-title">Notes 20 - 15.09.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-21-20.102022.html"><span class="tree-item-title">Notes 21 - 20.102022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-22-27.10.2022.html"><span class="tree-item-title">Notes 22 - 27.10.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-23-10.11.2022.html"><span class="tree-item-title">Notes 23 - 10.11.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-24-17.11.2022.html"><span class="tree-item-title">Notes 24 - 17.11.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-25-01.12.2022.html"><span class="tree-item-title">Notes 25 - 01.12.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-26-15.12.2022.html"><span class="tree-item-title">Notes 26 - 15.12.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-27-22.12.2022.html"><span class="tree-item-title">Notes 27 - 22.12.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-28-29.12.2022.html"><span class="tree-item-title">Notes 28 - 29.12.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-29-19.01.2023.html"><span class="tree-item-title">Notes 29 - 19.01.2023</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-30-26.01.2023.html"><span class="tree-item-title">Notes 30 - 26.01.2023</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-31-02.02.2023.html"><span class="tree-item-title">Notes 31 - 02.02.2023</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-32-09.02.2023.html"><span class="tree-item-title">Notes 32 - 09.02.2023</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-33-16.02.2023.html"><span class="tree-item-title">Notes 33 - 16.02.2023</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-34-23.02.2023.html"><span class="tree-item-title">Notes 34 - 23.02.2023</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-35-02.03.2023.html"><span class="tree-item-title">Notes 35 - 02.03.2023</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-36-26.03.2023.html"><span class="tree-item-title">Notes 36 - 26.03.2023</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-37-02.04-2023.html"><span class="tree-item-title">Notes 37 - 02.04-2023</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-38-05.04.2023.html"><span class="tree-item-title">Notes 38 - 05.04.2023</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-39-12.04.2023.html"><span class="tree-item-title">Notes 39 - 12.04.2023</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-4-26.01.2022.html"><span class="tree-item-title">Notes 4 - 26.01.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-40-24.05.2023.html"><span class="tree-item-title">Notes 40 - 24.05.2023</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-41-14.06.2023.html"><span class="tree-item-title">Notes 41 - 14.06.2023</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-5-02.02.2022.html"><span class="tree-item-title">Notes 5 - 02.02.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-6-09.02.2022.html"><span class="tree-item-title">Notes 6 - 09.02.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-7-16.02.2022.html"><span class="tree-item-title">Notes 7 - 16.02.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-8-27.02.2022.html"><span class="tree-item-title">Notes 8 - 27.02.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="notes/notes-9-06.03.2022.html"><span class="tree-item-title">Notes 9 - 06.03.2022</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+              </div>
+            </div>
+            <div class="tree-item mod-tree-folder mod-collapsible is-collapsed" data-depth="1">
+              <div class="tree-item-contents">
+                <div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
+                    <path d="M3 8L12 17L21 8"></path>
+                  </svg></div><a class="tree-item-link" href="organisationen"><span class="tree-item-title">Organisationen</span></a>
+              </div>
+              <div class="tree-item-children">
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/5-gründungshäuser-von-fellonhall.html"><span class="tree-item-title">5 Gründungshäuser von Fellonhall</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/arahel.html"><span class="tree-item-title">Arahel</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/augen-von-baelstrom.html"><span class="tree-item-title">Augen von Baelstrom</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/das-fahrende-folk.html"><span class="tree-item-title">Das Fahrende Folk</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/die-7.html"><span class="tree-item-title">Die 7</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/fellonhall-(haus).html"><span class="tree-item-title">Fellonhall (Haus)</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/kinder-des-sturms.html"><span class="tree-item-title">Kinder des Sturms</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/militär-von-freihafen.html"><span class="tree-item-title">Militär von Freihafen</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/selvarun.html"><span class="tree-item-title">Selvarun</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/silbervögel.html"><span class="tree-item-title">Silbervögel</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/sturmklaue.html"><span class="tree-item-title">Sturmklaue</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/ulakian.html"><span class="tree-item-title">Ulakian</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/vayra.html"><span class="tree-item-title">Vayra</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="organisationen/wallwächter.html"><span class="tree-item-title">Wallwächter</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+              </div>
+            </div>
+            <div class="tree-item mod-tree-folder mod-collapsible is-collapsed" data-depth="1">
+              <div class="tree-item-contents">
+                <div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
+                    <path d="M3 8L12 17L21 8"></path>
+                  </svg></div><a class="tree-item-link" href="orte"><span class="tree-item-title">Orte</span></a>
+              </div>
+              <div class="tree-item-children">
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/ajhum.html"><span class="tree-item-title">Ajhum</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/am'jarr.html"><span class="tree-item-title">Am'jarr</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/fellonhall.html"><span class="tree-item-title">Fellonhall</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/forglung.html"><span class="tree-item-title">Forglung</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/freihafen.html"><span class="tree-item-title">Freihafen</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/kleine-inseln-(name-wip).html"><span class="tree-item-title">Kleine Inseln (name wip)</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/oceanblood-castle.html"><span class="tree-item-title">Oceanblood Castle</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/pentagard.html"><span class="tree-item-title">Pentagard</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/primus.html"><span class="tree-item-title">Primus</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/schamharal.html"><span class="tree-item-title">Schamharal</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/sekunda.html"><span class="tree-item-title">Sekunda</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/solheim.html"><span class="tree-item-title">Solheim</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/universität-von-ostamark.html"><span class="tree-item-title">Universität von Ostamark</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/unoffizielle-duergar-mine.html"><span class="tree-item-title">unoffizielle Duergar Mine</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/uthrend.html"><span class="tree-item-title">Uthrend</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/uthrend-(kontinent).html"><span class="tree-item-title">Uthrend (Kontinent)</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/valastras-zuflucht.html"><span class="tree-item-title">Valastras Zuflucht</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+                <div class="tree-item mod-tree-file" data-depth="2">
+                  <div class="tree-item-contents"><a class="tree-item-link" href="orte/wall.html"><span class="tree-item-title">Wall</span></a></div>
+                  <div class="tree-item-children"></div>
+                </div>
+              </div>
+            </div>
+            <div class="tree-item mod-tree-file" data-depth="1">
+              <div class="tree-item-contents"><a class="tree-item-link" href="selvarun-lore.html"><span class="tree-item-title">Selvarun Lore</span></a></div>
+              <div class="tree-item-children"></div>
+            </div>
+            <div class="tree-item mod-tree-file" data-depth="1">
+              <div class="tree-item-contents"><a class="tree-item-link" href="selvarun-vermächtnis.html"><span class="tree-item-title">Selvarun Vermächtnis</span></a></div>
+              <div class="tree-item-children"></div>
+            </div>
+            <div class="tree-item mod-tree-file" data-depth="1">
+              <div class="tree-item-contents"><a class="tree-item-link" href="to-do.html"><span class="tree-item-title">To-do</span></a></div>
+              <div class="tree-item-children"></div>
+            </div>
+            <div class="tree-item mod-tree-file" data-depth="1">
+              <div class="tree-item-contents"><a class="tree-item-link" href="update-github-wiki.html"><span class="tree-item-title">Update github wiki</span></a></div>
+              <div class="tree-item-children"></div>
+            </div>
+            <div class="tree-item mod-tree-file" data-depth="1">
+              <div class="tree-item-contents"><a class="tree-item-link" href="verschwinden-von-umberlee.html"><span class="tree-item-title">Verschwinden von Umberlee</span></a></div>
+              <div class="tree-item-children"></div>
+            </div>
+            <div class="tree-item mod-tree-file" data-depth="1">
+              <div class="tree-item-contents"><a class="tree-item-link" href="wahlkampf-freihafen.html"><span class="tree-item-title">Wahlkampf Freihafen</span></a></div>
+              <div class="tree-item-children"></div>
+            </div>
+            <div class="tree-item mod-tree-file" data-depth="1">
+              <div class="tree-item-contents"><a class="tree-item-link" href="wunschliste.html"><span class="tree-item-title">Wunschliste</span></a></div>
+              <div class="tree-item-children"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="document-container">
+      <div class="markdown-preview-view markdown-rendered node-insert-event is-readable-line-width allow-fold-headings show-indentation-guide allow-fold-lists" style="tab-size: 4;">
+        <style id="MJX-CHTML-styles"></style>
+        <div class="markdown-preview-sizer markdown-preview-section" style="padding-bottom: ; padding-top: var(--file-margins); padding-right: var(--file-margins); padding-left: var(--file-margins); width: 100%; position: absolute;">
+          <div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div>
+          <div class="mod-header">
+            <div class="inline-title" data-heading="Aelis Vayra" id="Aelis_Vayra" style="display: block;">Aelis Vayra</div>
+          </div>
+          <div>
+            <pre class="frontmatter language-yaml" tabindex="0" style="display: none;"><code class="language-yaml is-loaded"><span class="token key atrule">aliases</span><span class="token punctuation">:</span> Aelis
+<span class="token key atrule">tags</span><span class="token punctuation">:</span> PC</code><button class="copy-code-button">Copy</button></pre>
+            <div class="frontmatter-container">
+              <div class="frontmatter-container-header">
+                <div class="frontmatter-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
+                    <path d="M3 8L12 17L21 8"></path>
+                  </svg></div>Metadata
+              </div>
+              <div class="frontmatter-section mod-aliases"><span class="frontmatter-section-label">Aliases</span>
+                <div class="frontmatter-section-data frontmatter-section-aliases"><span class="frontmatter-alias"><span class="frontmatter-alias-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-forward">
+                        <polyline points="15 17 20 12 15 7"></polyline>
+                        <path d="M4 18v-2a4 4 0 0 1 4-4h12"></path>
+                      </svg></span>Aelis</span></div>
+              </div>
+              <div class="frontmatter-section mod-tags"><span class="frontmatter-section-label">Tags</span>
+                <div class="frontmatter-section-data frontmatter-section-tags"><a class="tag" target="_blank" rel="noopener" href="#PC">#PC</a></div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p>Spieler: Dominik Peters<br>
+              Elf (high)<br>
+              Druid (dreams)</p>
+          </div>
+          <div>
+            <p>Aelis kommt aus dem Haus <a data-href="Arahel" href="organisationen/arahel.html" class="internal-link" target="_self" rel="noopener">Arahel</a></p>
+          </div>
+          <div class="mod-footer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar-right sidebar">
+      <div class="sidebar-content"><span class="sidebar-section-header">Interactive Graph</span>
+        <div class="graph-view-placeholder">
+          <div class="graph-view-container">
+            <div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-arrow-up-right">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg></div>
+            <canvas id="graph-canvas" width="512px" height="512px"></canvas>
+          </div>
+        </div>
+        <div class="tree-container outline-tree" data-depth="0">
+          <div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button"><iconify-icon icon="ph:arrows-in-line-horizontal-bold" width="18px" height="18px" rotate="90deg" color="currentColor"></iconify-icon></button></div>
+          <div class="tree-scroll-area"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
