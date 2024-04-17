@@ -1,2 +1,0 @@
-Lyra ist eine ehemalige Studentin an der [[Universität von Ostamark]] und Assistentin von  [[Professor Cedis]]. Sie war außerdem eine Liebschaft von [[Emporio Selvarun]] während seiner Zeit an der Universität.
-Lyra jagte auf Geheiß von Professor Cedis Emporio und Gemini, wobei sie von Emporio getötet wurde.

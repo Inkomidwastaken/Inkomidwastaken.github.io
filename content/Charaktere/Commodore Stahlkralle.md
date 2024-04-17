@@ -1,1 +1,0 @@
-Commodore Stahlkralle leitet [[Militär von Freihafen|Millitär]] von [[Freihafen]].

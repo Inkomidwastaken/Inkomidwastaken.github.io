@@ -1,3 +1,0 @@
----
-aliases: Stadtwache, Millitär, Mariene
----

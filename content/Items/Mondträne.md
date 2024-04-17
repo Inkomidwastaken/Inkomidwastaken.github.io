@@ -1,1 +1,0 @@
-Mondtränen sind magische Kristalle die in den Überresten von [[Sekunda]] gefunden werden können. Mondtränen sind eine Fusion aus drei anderen Edelsteinen (zb. Rubin, Smaragd, Saphir)
