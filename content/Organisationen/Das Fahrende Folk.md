@@ -1,0 +1,1 @@
+Ein Reisendes Folk, dass oft vor der Stadtgrenze von [[Freihafen]] zu finden ist.

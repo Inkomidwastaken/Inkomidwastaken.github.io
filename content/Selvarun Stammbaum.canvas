@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"type":"text","text":"[[Erendiel Selvarun]]","id":"b30c31917f8a556b","x":-260,"y":-240,"width":180,"height":60},
+		{"type":"text","text":"[[Unknown Selvarun]]","id":"ddfff356d37e5245","x":-20,"y":-240,"width":180,"height":60},
+		{"type":"text","text":"[[Rinaria Selvarun]]","id":"763afff2e747c291","x":-140,"y":-80,"width":180,"height":60},
+		{"type":"text","text":"[[Cyran Selvarun]]","id":"d0343f0f21fc386e","x":100,"y":-80,"width":180,"height":60},
+		{"type":"text","text":"[[Emporio Selvarun]]","id":"9a7726c5043a987a","x":-20,"y":80,"width":180,"height":50}
+	],
+	"edges":[
+		{"id":"28a49696ece74abf","fromNode":"b30c31917f8a556b","fromSide":"bottom","toNode":"763afff2e747c291","toSide":"top"},
+		{"id":"7b2a74f513b74d03","fromNode":"ddfff356d37e5245","fromSide":"bottom","toNode":"763afff2e747c291","toSide":"top"},
+		{"id":"2b239cce10607d2d","fromNode":"763afff2e747c291","fromSide":"bottom","toNode":"9a7726c5043a987a","toSide":"top"},
+		{"id":"51012330986fac1d","fromNode":"d0343f0f21fc386e","fromSide":"bottom","toNode":"9a7726c5043a987a","toSide":"top"}
+	]
+}

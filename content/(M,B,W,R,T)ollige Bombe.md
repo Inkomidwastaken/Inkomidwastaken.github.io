@@ -1,0 +1,1 @@
+Ein Stripclub in [[Oberndorf]]. Der erste Buchstabe auf dem Schild ändert sich immer wieder.

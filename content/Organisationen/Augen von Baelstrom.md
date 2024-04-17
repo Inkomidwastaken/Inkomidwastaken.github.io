@@ -1,0 +1,2 @@
+Die Augen von Baelstrom ist eine Gruppen von Agenten die [[Lord Baelstrom]] dienen. Alle agenten Tragen eine Maske in die eine unterschiedliche anzahl an Diamanten eingelassen sind.
+Augen von Baelstrom scheinen ihre Präsenz vor beliebigen Personen verbergen zu können. 

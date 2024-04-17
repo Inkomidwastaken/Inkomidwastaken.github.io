@@ -1,0 +1,1 @@
+Das Oceanblood Castle ist der Sitz des Millitärs in [[Freihafen]].

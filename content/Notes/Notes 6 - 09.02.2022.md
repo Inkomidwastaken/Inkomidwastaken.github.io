@@ -1,0 +1,22 @@
+- Balock und Amanda gehen zur Gem Serpent auf ein date
+- DIe Statue der Schlange  ist komplett aus Edelsteinen 
+
+- Vic frägt Kurjuw aus
+- Er hat auch eine reiche handelfrau aus Pentagard mehrere abgesante aus durgos UND DIE KÖNIGIN VOB SCHAMRAHAL stehen lassen.
+- Aschmir "besucht" kurjuw uf der Sturmklaue
+- Am ende schlafen sie und Kurjuw in Vandocks Bett
+- Vick Weckt sie auf, Vandock schmeißt sie raus
+- Vic braut tränke
+- wir besprechen wie wir in den untergrung sklavenzwinger einbrechen könneten
+- beschließen gbj um  hilfe zu fragen
+- vick ist laut sich selbst schon vergeben
+- Bullman der minotauer hat die arena gegründer. diese sieht er mehr als zirkus. Ist der Arena und dem Specktakel loyal.
+- GBJ stellt leute bereit die für Ablenkung sorgen, wenn Napser ihnen ein Signal gibt
+- Auf dem Rückweg bemerkt emporio dass sie verfolgt werden.
+- durch napster sieht er, dass es ein zombie mit grünen augen ist
+- nchdem wir den zombie besiegen brennt er in grünen flammen. kurz sehen wir das gesicht des leonin in den flammen
+- Am nächsten tag gehen j silver, gemini , lil breze und emporio einkaufen. Kostüme und Supplements
+- Vic und Balock fragen kashmir nach stand der versprochenen Hilfeleistungen
+- danach geheht balock in die Arena und quatscht mit dem Arenaleitereiter Jeff Bullman
+- unterschreibt gladiatorenvertrag, dafür dass das leben von arcys bruder gerettet wird
+- 

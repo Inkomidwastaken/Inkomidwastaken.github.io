@@ -1,0 +1,1 @@
+Oberndorf hat als kleine Siedlung in [[Equador]] angefangen. Nachdem die Sturmklaue das lokale Wirtshaus [[Jägerhof]] übernommen hat wurde es benannt.
